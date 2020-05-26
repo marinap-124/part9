@@ -1,0 +1,17 @@
+     
+POST http://localhost:3001/api/patients/d27736ec-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+    {
+        "date": "2019-02-04",
+        "specialist": "Noora Aho",
+        "type": "OccupationalHealthcare",
+        "description": "Health check",
+        "employerName": "Spektra Oy",
+        "diagnosisCodes": [
+          "Z57.1",
+          "Z74.3",
+          "M51.2"
+        ],
+        "sickLeave": {"startDate": "2019-01-01", "endDate": "2019-02-01"}
+      }
